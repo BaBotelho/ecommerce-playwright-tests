@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-playwright-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright E2E tests for a demo e-commerce using Sauce Demo.",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright test --reporter=html",
+    "lint": "npx eslint . --ext .ts",
+    "format": "npx prettier --write .",
+    "generate:gif": "node scripts/generate-gif.js",
+    "install:playwright": "npx playwright install"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.14.0",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-playwright": "^0.4.0",
+    "gifencoder": "^2.0.1",
+    "png-js": "^2.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.4.4"
+  }
+}
