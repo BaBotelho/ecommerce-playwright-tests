@@ -118,3 +118,4 @@ This is useful to show a working automation demo in your portfolio.
 - Fixtures for test data management
 - Parallelizable, maintainable TypeScript tests
 - CI automation with GitHub Actions
+
